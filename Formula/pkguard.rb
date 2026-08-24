@@ -1,28 +1,28 @@
 class Pkguard < Formula
   desc "Scan package-manager settings and advisories across a folder of repos"
   homepage "https://pkguard.dev"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.2/pkguard-darwin-arm64"
-      sha256 "a0b3f27ed34c34a69554112f3139a13171800314195280fbe300994047e6fe4c"
+      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.3/pkguard-darwin-arm64"
+      sha256 "1c58e17e35550ebc4cf3ed4d9de8bfd48dd472c05fa06720befef5602e66640e"
     end
     on_intel do
-      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.2/pkguard-darwin-x64"
-      sha256 "8cfa29d9544cb5dd79b6f389a381f38ed842b564b5bdd57516f431dd7c0598ed"
+      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.3/pkguard-darwin-x64"
+      sha256 "254abe98171c45210932f9a17484f7d5f35c094c542d935a1d09d3fea0eab00d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.2/pkguard-linux-arm64"
-      sha256 "f162c8597f6fcae3b79ae9e9997132c29112dbc292ca01c82908a381dd996aac"
+      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.3/pkguard-linux-arm64"
+      sha256 "3d5ef876ed0d3e63f19f537da15e9e29229e0029258e2ef23d99b4fab9765d0d"
     end
     on_intel do
-      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.2/pkguard-linux-x64"
-      sha256 "f9627058e47f680804f1fac1f73e54325756d74bd9d66fb17d4466e2d416a7c1"
+      url "https://github.com/jackmcpickle/pkguard/releases/download/v1.0.3/pkguard-linux-x64"
+      sha256 "a61db6aa99e4848ed1c2f3e9cd068cefb52f9c21bd2c977635a152433c090d1c"
     end
   end
 
